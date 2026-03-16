@@ -1,1 +1,1 @@
-worker: python freewire_agent1_collector.py
+worker: python freewire_main.py
