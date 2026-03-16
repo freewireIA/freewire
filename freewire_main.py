@@ -24,7 +24,7 @@ logging.basicConfig(
 )
 log = logging.getLogger("freewire.main")
 
-INTERVAL_HOURS = 2
+INTERVAL_HOURS = 12
 
 
 def run_pipeline():

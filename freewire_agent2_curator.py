@@ -26,7 +26,7 @@ log = logging.getLogger("freewire.curator")
 
 INPUT_FILE  = "freewire_raw.json"
 OUTPUT_FILE = "freewire_curated.json"
-INTERVAL_HOURS = 2
+INTERVAL_HOURS = 12
 MAX_OUTPUT = 20  # Máximo de noticias en la edición diaria
 
 # ─── PESOS POR CATEGORÍA ────────────────────────────────────────────────────

@@ -25,7 +25,7 @@ logging.basicConfig(
 log = logging.getLogger("freewire.collector")
 
 OUTPUT_FILE = "freewire_raw.json"
-INTERVAL_HOURS = 2
+INTERVAL_HOURS = 12
 
 # ─── FUENTES RSS ────────────────────────────────────────────────────────────
 
