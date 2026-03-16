@@ -16,6 +16,7 @@ from apscheduler.schedulers.blocking import BlockingScheduler
 
 from freewire_agent1_collector import collect_all, save as save_raw
 from freewire_agent2_curator import curate
+from freewire_agent3_writer import write_all
 
 logging.basicConfig(
     level=logging.INFO,
@@ -38,6 +39,9 @@ def run_pipeline():
 
     # Agente 2: Curar
     curate()
+
+    # Agente 3: Redactar
+    write_all()
 
     log.info("╔══════════════════════════════════════╗")
     log.info("║   FREE WIRE — Pipeline completo      ║")
